@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1247151932	Play_forest_atmo01_atmo_v01			\Default Work Unit\Play_forest_atmo01_atmo_v01	
+	2661661978	Play_speedboost_activate_v01			\Default Work Unit\Play_speedboost_activate_v01	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	956024533	speedboost-activate_v01	C:\0_HTLStuff\Unity\UnityProjects\Smeers\Wwise-Tutorial\06-Wwise-Tutorial\Wwise-Tutorial\Wwise-Tutorial_WwiseProject\.cache\Mac\SFX\speedboost-activate_v01_317335E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\speedboost-activate_v01		40314
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	628738064	forest-atmo01_atmo_v01	C:\0_HTLStuff\Unity\UnityProjects\Smeers\Wwise-Tutorial\06-Wwise-Tutorial\Wwise-Tutorial\Wwise-Tutorial_WwiseProject\.cache\Mac\SFX\forest-atmo01_atmo_v01_14A04D43.wem	628738064.wem	\Actor-Mixer Hierarchy\Default Work Unit\forest-atmo01_atmo_v01	
+

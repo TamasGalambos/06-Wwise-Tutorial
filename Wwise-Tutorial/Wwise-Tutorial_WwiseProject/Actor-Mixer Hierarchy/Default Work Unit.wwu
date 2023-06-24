@@ -1,6 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{7DE9CC4C-985D-4DD8-9D31-ABC956A1995D}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{7DE9CC4C-985D-4DD8-9D31-ABC956A1995D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{7DE9CC4C-985D-4DD8-9D31-ABC956A1995D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="forest-atmo01_atmo_v01" ID="{85780B49-18C1-49AB-8498-96C6B0FF27A3}" ShortID="18870871">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="IsStreamingEnabled" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{325FD982-9C37-44A2-A291-928565B3AC29}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FD1E5CF4-97A9-4771-ACDB-E50B2B4A71D4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="forest-atmo01_atmo_v01" ID="{23A25955-F4ED-47A7-81D4-59B101A288FB}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.575937840325386"/>
+								<Property Name="TrimEnd" Type="Real64" Value="290.659151395507"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>forest-atmo01_atmo_v01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="628738064"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="forest-atmo01_atmo_v01" ID="{23A25955-F4ED-47A7-81D4-59B101A288FB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="speedboost-activate_v01" ID="{25DF02F1-AC10-4BDA-977F-32D6C7DCD71E}" ShortID="128740885">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-20</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="IrgendEinAttenuation" ID="{91A95B47-8829-4B51-83B5-6BB984B71844}" WorkUnitID="{2968825C-30D9-4E3D-8354-1EF1F971E4A2}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{325FD982-9C37-44A2-A291-928565B3AC29}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FD1E5CF4-97A9-4771-ACDB-E50B2B4A71D4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="speedboost-activate_v01" ID="{8D92AC73-2E79-4660-ACA8-C2B4111AAAC7}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.128710563380282"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="1.16316212832551"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.26695524256651"/>
+								<Property Name="TrimEnd" Type="Real64" Value="2.86976885758999"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>speedboost-activate_v01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="956024533"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="speedboost-activate_v01" ID="{8D92AC73-2E79-4660-ACA8-C2B4111AAAC7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

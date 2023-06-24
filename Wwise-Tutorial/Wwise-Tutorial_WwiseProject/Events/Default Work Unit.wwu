@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{CE32EE14-48B4-4E56-A728-DE1942D07A55}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{CE32EE14-48B4-4E56-A728-DE1942D07A55}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{CE32EE14-48B4-4E56-A728-DE1942D07A55}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_forest_atmo01_atmo_v01" ID="{1DD45681-FD10-41B4-8E21-4E3D323B3434}">
+					<ChildrenList>
+						<Action Name="" ID="{323470B8-F9C2-4603-8522-998FC4BD5397}" ShortID="849273827">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="forest-atmo01_atmo_v01" ID="{85780B49-18C1-49AB-8498-96C6B0FF27A3}" WorkUnitID="{7DE9CC4C-985D-4DD8-9D31-ABC956A1995D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_speedboost_activate_v01" ID="{F8DB9C3A-9881-447F-B146-23E92211C9D4}">
+					<ChildrenList>
+						<Action Name="" ID="{5D8C9BB6-2653-429C-9127-40968AF64FDD}" ShortID="533935732">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="speedboost-activate_v01" ID="{25DF02F1-AC10-4BDA-977F-32D6C7DCD71E}" WorkUnitID="{7DE9CC4C-985D-4DD8-9D31-ABC956A1995D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

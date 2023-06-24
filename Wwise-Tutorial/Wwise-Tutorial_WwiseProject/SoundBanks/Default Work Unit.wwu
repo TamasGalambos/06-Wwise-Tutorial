@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{DF91CC54-CF4C-4663-BFA4-7696E2E53B56}" SchemaVersion="110">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{DF91CC54-CF4C-4663-BFA4-7696E2E53B56}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{DF91CC54-CF4C-4663-BFA4-7696E2E53B56}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="main" ID="{6EE195DB-FFCC-4B25-AB73-BF83A62B29F9}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_forest_atmo01_atmo_v01" ID="{1DD45681-FD10-41B4-8E21-4E3D323B3434}" WorkUnitID="{CE32EE14-48B4-4E56-A728-DE1942D07A55}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_speedboost_activate_v01" ID="{F8DB9C3A-9881-447F-B146-23E92211C9D4}" WorkUnitID="{CE32EE14-48B4-4E56-A728-DE1942D07A55}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

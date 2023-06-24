@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 54cc91df4ccf6346bfa47696e2e53b56
     GuidInternal: 
-    m_lastTime: -8585139807129664925
-    List: []
+    m_lastTime: -8585139741451032744
+    List:
+    - name: main
+      guid: db95e16eccff254bab73bf83a62b29f9
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 54cc91df4ccf6346bfa47696e2e53b56
+      - ElementName: main
+        ObjectType: 7
+        guid: db95e16eccff254bab73bf83a62b29f9
+      Path: SoundBanks\Default Work Unit\main
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +94,42 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 14ee32ceb448564ea728de1942d07a55
     GuidInternal: 
-    m_lastTime: -8585139807130043903
-    List: []
+    m_lastTime: -8585139741453585369
+    List:
+    - name: Play_forest_atmo01_atmo_v01
+      guid: 8156d41d10fdb4418e214e3d323b3434
+      id: 1247151932
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 14ee32ceb448564ea728de1942d07a55
+      - ElementName: Play_forest_atmo01_atmo_v01
+        ObjectType: 3
+        guid: 8156d41d10fdb4418e214e3d323b3434
+      Path: Events\Default Work Unit\Play_forest_atmo01_atmo_v01
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_speedboost_activate_v01
+      guid: 3a9cdbf881987f44b14623e92211c9d4
+      id: 2661661978
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 14ee32ceb448564ea728de1942d07a55
+      - ElementName: Play_speedboost_activate_v01
+        ObjectType: 3
+        guid: 3a9cdbf881987f44b14623e92211c9d4
+      Path: Events\Default Work Unit\Play_speedboost_activate_v01
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -139,7 +187,7 @@ MonoBehaviour:
     m_lastTime: -8585139807129924220
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 05000000060000000a000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

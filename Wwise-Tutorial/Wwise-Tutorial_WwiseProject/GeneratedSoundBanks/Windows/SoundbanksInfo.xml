@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{986487A9-2683-E47A-8688-3D0FE6FDB954}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{D1AE5E76-321A-61A7-9658-E9E15598E609}">
+			<ShortName>main</ShortName>
+			<Path>main.bnk</Path>
+			<Media>
+				<File Id="628738064" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>forest-atmo01_atmo_v01.wav</ShortName>
+					<Path>Media/628738064.wem</Path>
+					<CachePath>SFX/forest-atmo01_atmo_v01_14A04D43.wem</CachePath>
+				</File>
+				<File Id="956024533" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>speedboost-activate_v01.wav</ShortName>
+					<CachePath>SFX/speedboost-activate_v01_317335E2.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1247151932" Name="Play_forest_atmo01_atmo_v01" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="628738064"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2661661978" Name="Play_speedboost_activate_v01" MaxAttenuation="10" DurationType="OneShot" DurationMin="2.6028137" DurationMax="2.6028137">
+					<MediaRefs>
+						<MediaRef Id="956024533"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{8817A471-D158-6F98-3F3F-3F427ED15018}</FileHash>
+</SoundBanksInfo>
